@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title_en": "On Keeping a Notebook Open",
+      "title_fa": "درباره باز نگه داشتن دفترچه",
+      "date": "2026-06-12",
+      "excerpt_en": "A meditation on attention, unfinished sentences, and why the best pages often begin as a refusal to explain too quickly.",
+      "excerpt_fa": "تأملی درباره توجه، جمله‌های ناتمام، و اینکه چرا بهترین صفحه‌ها اغلب با شتاب نکردن در توضیح آغاز می‌شوند.",
+      "body_en": "A notebook is less a place for certainty than a room where a sentence can hesitate without being corrected too soon.",
+      "body_fa": "دفترچه کمتر جای یقین است و بیشتر اتاقی است که جمله می‌تواند بی‌آنکه زود اصلاح شود، تردید کند.",
+      "featured": true
+    },
+    {
+      "title_en": "Notes from the Final Pass",
+      "title_fa": "یادداشت‌هایی از بازخوانی آخر",
+      "date": "2026-05-27",
+      "excerpt_en": "The line edits for the new book are finished, the margins are quiet, and the orchard has finally learned to hold its winter.",
+      "excerpt_fa": "ویرایش نهایی کتاب تازه تمام شده است؛ حاشیه‌ها آرام‌اند و باغ سرانجام آموخته است چگونه زمستان خود را نگه دارد.",
+      "body_en": "The last pass through a manuscript is a lesson in restraint. Some sentences ask to remain unfinished in the reader's mind.",
+      "body_fa": "آخرین بازخوانی یک دست‌نوشته، درسی در خویشتن‌داری است. بعضی جمله‌ها می‌خواهند در ذهن خواننده ناتمام بمانند.",
+      "featured": false
+    }
+  ]
+}

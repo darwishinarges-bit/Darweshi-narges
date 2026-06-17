@@ -1,0 +1,174 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: "outputs/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - name: "about"
+        label: "About"
+        file: "outputs/content/about.json"
+        format: "json"
+        fields:
+          - { label: "Hero Photo", name: "hero_image", widget: "image", required: false, hint: "Upload the main portrait shown at the top of the homepage." }
+          - { label: "Instagram Link", name: "instagram_url", widget: "string", required: false }
+          - { label: "Contact Email", name: "contact_email", widget: "string", required: false }
+          - label: "English Body Font"
+            name: "english_body_font"
+            widget: "select"
+            options: ["Modern Sans", "Classic Serif", "Book Serif", "Clean Sans"]
+            default: "Modern Sans"
+          - label: "Persian Body Font"
+            name: "persian_body_font"
+            widget: "select"
+            options: ["Vazir", "Tahoma", "Noto Naskh", "Serif"]
+            default: "Vazir"
+          - label: "Heading / Name Font"
+            name: "heading_font"
+            widget: "select"
+            options: ["Classic Serif", "Book Serif", "Modern Sans", "Clean Sans"]
+            default: "Classic Serif"
+          - label: "Hero Quote Font"
+            name: "hero_quote_font"
+            widget: "select"
+            options: ["Classic Serif", "Book Serif", "Modern Sans", "Clean Sans", "Persian Vazir"]
+            default: "Classic Serif"
+          - { label: "English Hero Quote", name: "hero_quote_en", widget: "text" }
+          - { label: "Persian Hero Quote", name: "hero_quote_fa", widget: "text", required: false }
+          - { label: "English Title", name: "title_en", widget: "string" }
+          - { label: "Persian Title", name: "title_fa", widget: "string", required: false }
+          - label: "English Paragraphs"
+            name: "paragraphs_en"
+            widget: "list"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - label: "Persian Paragraphs"
+            name: "paragraphs_fa"
+            widget: "list"
+            required: false
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - label: "Appearances"
+            name: "appearances"
+            widget: "list"
+            required: false
+            summary: "{{fields.date}} — {{fields.title_en}}"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "English Title", name: "title_en", widget: "string" }
+              - { label: "Persian Title", name: "title_fa", widget: "string", required: false }
+
+  - name: "writing"
+    label: "Writing"
+    files:
+      - name: "blog_posts"
+        label: "Blog Posts"
+        file: "outputs/content/blog-posts.json"
+        format: "json"
+        fields:
+          - label: "Posts"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}}"
+            fields: &writing_fields
+              - { label: "English Title", name: "title_en", widget: "string" }
+              - { label: "Persian Title", name: "title_fa", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - { label: "English Excerpt", name: "excerpt_en", widget: "text" }
+              - { label: "Persian Excerpt", name: "excerpt_fa", widget: "text", required: false }
+              - { label: "English Body", name: "body_en", widget: "markdown" }
+              - { label: "Persian Body", name: "body_fa", widget: "markdown", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+      - name: "essays"
+        label: "Essays"
+        file: "outputs/content/essays.json"
+        format: "json"
+        fields:
+          - label: "Essays"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}}"
+            fields: *writing_fields
+      - name: "translations"
+        label: "Translations"
+        file: "outputs/content/translations.json"
+        format: "json"
+        fields:
+          - label: "Translations"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}}"
+            fields: *writing_fields
+      - name: "notes"
+        label: "Notes"
+        file: "outputs/content/notes.json"
+        format: "json"
+        fields:
+          - label: "Notes"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}}"
+            fields: *writing_fields
+
+  - name: "books"
+    label: "Books"
+    files:
+      - name: "books"
+        label: "Books"
+        file: "outputs/content/books.json"
+        format: "json"
+        fields:
+          - label: "Books"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}}"
+            fields:
+              - { label: "English Title", name: "title_en", widget: "string" }
+              - { label: "Persian Title", name: "title_fa", widget: "string", required: false }
+              - { label: "English Meta", name: "meta_en", widget: "string", hint: "Example: Memoir · Forthcoming" }
+              - { label: "Persian Meta", name: "meta_fa", widget: "string", required: false }
+              - { label: "English Description", name: "description_en", widget: "text" }
+              - { label: "Persian Description", name: "description_fa", widget: "text", required: false }
+              - { label: "English Link Label", name: "link_label_en", widget: "string", default: "Read more" }
+              - { label: "Persian Link Label", name: "link_label_fa", widget: "string", default: "بیشتر بخوانید", required: false }
+              - { label: "Link URL", name: "link_url", widget: "string", default: "#letter" }
+              - { label: "Cover Image", name: "cover_image", widget: "image", required: false, hint: "Upload a book cover. If empty, the site uses the classic text cover style below." }
+              - label: "Cover Style"
+                name: "cover_style"
+                widget: "select"
+                options: ["cover-one", "cover-two", "cover-three"]
+                default: "cover-one"
+
+  - name: "critics"
+    label: "Criticism & Reviews"
+    files:
+      - name: "critics"
+        label: "Criticism & Reviews"
+        file: "outputs/content/critics.json"
+        format: "json"
+        fields:
+          - label: "Approved Entries"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_en}} — {{fields.critic_name}}"
+            fields:
+              - label: "Type"
+                name: "type_en"
+                widget: "select"
+                options: ["Short Note", "Review", "Critical Essay", "Research Paper"]
+                default: "Review"
+                hint: "Use Short Note for approved public submissions from Netlify Forms."
+              - { label: "Persian Type", name: "type_fa", widget: "string", required: false, hint: "Example: مقاله انتقادی" }
+              - { label: "English Title", name: "title_en", widget: "string", hint: "For approved short notes, you can use: Short note" }
+              - { label: "Persian Title", name: "title_fa", widget: "string", required: false }
+              - { label: "Critic / Publication / Reader Name", name: "critic_name", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+              - { label: "English Summary", name: "summary_en", widget: "text", required: false }
+              - { label: "Persian Summary", name: "summary_fa", widget: "text", required: false }
+              - { label: "English Quote or Note", name: "quote_en", widget: "text", required: false, hint: "Paste the approved short note here." }
+              - { label: "Persian Quote", name: "quote_fa", widget: "text", required: false }
+              - { label: "External Link", name: "link_url", widget: "string", required: false }
+              - { label: "Document / PDF", name: "document", widget: "file", required: false, hint: "Upload a longer critical essay or research PDF." }

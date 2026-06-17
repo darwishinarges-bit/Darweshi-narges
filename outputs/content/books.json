@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "title_fa": "یک بیگانه",
+      "meta_en": "Short story · 2026",
+      "cover_style": "cover-one",
+      "link_url": "https://parsibaan.com/سرایه/داستان/یک-بیگانه/",
+      "link_label_fa": "مطالعه داستان",
+      "description_en": "A Stranger invites readers on a deeply personal journey through exile, friendship, and the search for meaning. Rooted in lived experience, it explores the tension between memories of home and the challenges of displacement. With a sincere and reflective tone, the narrative delves into themes of loss, resilience, and the bonds that unite people across distance and time.",
+      "title_en": "A Stranger",
+      "cover_image": "/assets/uploads/chatgpt-image-jun-16-2026-at-04_34_47-pm.png",
+      "meta_fa": "داستان کوتاه · ۲۰۲۶",
+      "link_label_en": "Read",
+      "description_fa": "یک بیگانه - خواننده را به سفری عمیق در دل تبعید، دوستی و جست‌وجوی معنا دعوت می‌کند. این اثر که ریشه در تجربه‌های زیسته دارد، کشمکش میان خاطرات وطن و چالش‌های آوارگی را روایت می‌کند و با نگاهی صمیمی و تأمل‌برانگیز، به مفاهیمی چون فقدان، تاب‌آوری و پیوندهای انسانی می‌پردازد که فراتر از مرزها و زمان امتداد می‌یابند."
+    },
+    {
+      "title_fa": "حماسه",
+      "meta_en": "Short story · 2025",
+      "cover_style": "cover-two",
+      "link_url": "https://parsibaan.com/سرایه/داستان/حماسه/",
+      "link_label_fa": "مطالعه داستان",
+      "description_en": "Set in the aftermath of the Taliban's ban on girls' education, Hamasa follows a young student's struggle to keep faith in friendship, dignity, and the possibility of a different future.",
+      "title_en": "Hamasa - حماسه",
+      "cover_image": "/assets/uploads/photo_2026-06-16-13.50.23.jpeg",
+      "meta_fa": "داستان کوتاه · ۲۰۲۶",
+      "link_label_en": "Read",
+      "description_fa": "در پی ممنوعیت آموزش دختران توسط طالبان، حماسه روایت دختر نوجوانی را دنبال میکند که در میان ناامیدی و محرومیت، می‌کوشد ایمان خود را به دوستی، کرامت انسانی و امکان آینده‌ای متفاوت حفظ کند."
+    },
+    {
+      "title_fa": "عنکبوت سیاه - یک میراث",
+      "meta_en": "Nonfiction · Memoir",
+      "cover_style": "cover-one",
+      "link_url": "#letter",
+      "link_label_fa": "بزودی",
+      "description_en": "In the summer of 2021, on the fifteenth day of Asad, across distant oceans, the light of a nation was extinguished. One by one, its cities succumbed to darkness. A force clad in black swept through the streets with the intensity of a devastating storm. Suddenly, the unimaginable became reality, leaving the people of that land in a state of disbelief.",
+      "title_en": "Black Spider - A Legacy",
+      "cover_image": "/assets/uploads/photo_2026-06-16-23.07.42.jpeg",
+      "link_label_en": "Coming soon",
+      "description_fa": "در تابستان سال ۱۴۰۰، در پانزدهمین روز ماه اسد، در آن سوی اقیانوس‌های پهناور، چراغ سرزمینی خاموش شد. شهرها یکی پس از دیگری در تاریکی فرو رفتند. طاعون انسان‌نما، با جامهٔ سیاه، همچون طوفانی سهمگین در خیابان‌های شهر جاری شد. در یک چشم برهم زدن، ناتمکن به واقعیت بدل گشت و مردم آن سرزمین در چنگ ناباوری اسیر شدند."
+    }
+  ]
+}

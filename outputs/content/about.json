@@ -1,0 +1,38 @@
+{
+  "hero_image": "assets/narges-darweshi.png",
+  "instagram_url": "https://www.instagram.com/narges_darweshi?igsh=MTA2YWJrYWxqYmZ5MA%3D%3D&utm_source=qr",
+  "contact_email": "darwishi.narges@gmail.com",
+  "english_body_font": "Modern Sans",
+  "persian_body_font": "Vazir",
+  "heading_font": "Classic Serif",
+  "hero_quote_font": "Classic Serif",
+  "hero_quote_en": "“My writing is hesitation; perhaps meaning is born in your reading.”",
+  "hero_quote_fa": "«نوشتن من تردید است؛ معنی شاید در خواندن تو متولد شود.»",
+  "title_en": "Writing at the edge of memory and place.",
+  "title_fa": "نوشتن در مرز حافظه و مکان.",
+  "paragraphs_en": [
+    "Narges Darweshi writes books and short stories about private histories, houses that remember their inhabitants, and the geographies that shape a life. Her work has appeared in literary journals, anthologies, and independent bookstores with excellent windows.",
+    "This weblog is her open desk: part archive, part correspondence, part map of what she is reading and noticing while new books take shape."
+  ],
+  "paragraphs_fa": [
+    "نرگس درویشی کتاب و داستان کوتاه‌هایی درباره تاریخ‌های خصوصی، خانه‌هایی که ساکنان خود را به یاد می‌آورند و جغرافیاهایی که زندگی را شکل می‌دهند می‌نویسد. آثار او در مجلات ادبی، مجموعه‌ها و کتابفروشی‌های مستقل منتشر شده است.",
+    "این وبلاگ میز کار باز اوست: بخشی آرشیو، بخشی مکاتبه و بخشی نقشه چیزهایی که هنگام شکل گرفتن کتاب‌های تازه می‌خواند و می‌بیند."
+  ],
+  "appearances": [
+    {
+      "date": "Sep 18",
+      "title_en": "Chicago Book Room reading",
+      "title_fa": "خوانش در شیکاگو"
+    },
+    {
+      "date": "Oct 04",
+      "title_en": "Online craft seminar",
+      "title_fa": "کارگاه آنلاین نوشتن"
+    },
+    {
+      "date": "Nov 11",
+      "title_en": "Lakeside Library conversation",
+      "title_fa": "گفت‌وگو در کتابخانه لیک‌ساید"
+    }
+  ]
+}

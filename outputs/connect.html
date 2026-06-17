@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Connect | Narges Darweshi</title>
+    <meta
+      name="description"
+      content="Connect with Narges Darweshi for readings, interviews, literary events, publishing questions, and correspondence."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form name="contact-message" method="POST" action="/thank-you.html" data-netlify="true" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact-message" />
+      <input name="bot-field" />
+      <input name="Name" />
+      <input name="Email" />
+      <textarea name="Message"></textarea>
+    </form>
+
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="index.html#top" aria-label="Narges Darweshi home">
+        <span class="brand-mark">ND</span>
+        <span>
+          <strong>Narges Darweshi</strong>
+          <small>Author &amp; Short Story Writer</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about" data-en="About" data-fa="درباره">About</a>
+        <a href="index.html#books" data-en="Publications" data-fa="انتشارات">Publications</a>
+        <a href="index.html#notes" data-en="Notes" data-fa="یادداشت‌ها">Notes</a>
+        <a href="index.html#critics" data-en="Criticism" data-fa="نقدها">Criticism</a>
+        <a href="index.html#letter" data-en="Letter" data-fa="نامه">Letter</a>
+        <a href="connect.html" data-en="Connect" data-fa="ارتباط">Connect</a>
+      </nav>
+      <div class="language-switch" aria-label="Language selector">
+        <button class="language-button active" type="button" data-language="en">EN</button>
+        <button class="language-button" type="button" data-language="fa">FA</button>
+      </div>
+      <a
+        class="instagram-link"
+        href="https://www.instagram.com/narges_darweshi?igsh=MTA2YWJrYWxqYmZ5MA%3D%3D&utm_source=qr"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Narges Darweshi on Instagram"
+        title="Instagram"
+      >
+        <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <circle cx="12" cy="12" r="4"></circle>
+          <circle cx="17.5" cy="6.5" r="1.2"></circle>
+        </svg>
+      </a>
+    </header>
+
+    <main>
+      <section id="connect" class="section contact-section connect-page" aria-labelledby="connect-title">
+        <div class="section-heading">
+          <h1 id="connect-title" data-en="Contact Me" data-fa="تماس با من">Contact Me</h1>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-details">
+            <a href="mailto:darwishi.narges@gmail.com" data-contact-email>
+              <span data-en="Email" data-fa="ایمیل">Email</span>
+              <span data-contact-email-text>darwishi.narges@gmail.com</span>
+            </a>
+          </div>
+
+          <form class="contact-form" id="contact-form" name="contact-message" method="POST" action="/thank-you.html" data-netlify="true" netlify netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact-message" />
+            <p class="hidden-field">
+              <label>Do not fill this out <input name="bot-field" /></label>
+            </p>
+            <label>
+              <span data-en="Name" data-fa="نام">Name</span>
+              <input
+                id="contact-name"
+                name="Name"
+                type="text"
+                required
+                data-placeholder-en="Your name"
+                data-placeholder-fa="نام شما"
+                placeholder="Your name"
+              />
+            </label>
+            <label>
+              <span data-en="Email" data-fa="ایمیل">Email</span>
+              <input id="contact-email" name="Email" type="email" required placeholder="you@example.com" />
+            </label>
+            <label>
+              <span data-en="Message" data-fa="پیام">Message</span>
+              <textarea
+                id="contact-message"
+                name="Message"
+                rows="5"
+                required
+                data-placeholder-en="Write your message"
+                data-placeholder-fa="پیام خود را بنویسید"
+                placeholder="Write your message"
+              ></textarea>
+            </label>
+            <button class="button primary" type="submit" data-en="Send Message" data-fa="ارسال پیام">Send Message</button>
+            <p class="form-helper" data-en="Messages are sent privately through the website." data-fa="پیام‌ها به صورت خصوصی از طریق وب‌سایت ارسال می‌شوند.">Messages are sent privately through the website.</p>
+            <p class="contact-form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Narges Darweshi. All rights reserved.</p>
+      <div>
+        <a href="index.html#about">About</a>
+        <a href="index.html#books">Publications</a>
+        <a href="index.html#notes">Notes</a>
+        <a href="connect.html">Connect</a>
+      </div>
+    </footer>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
