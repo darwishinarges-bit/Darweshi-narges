@@ -1,3 +1,15 @@
 {
-  "items": []
+  "items": [
+    {
+      "type_fa": "مقالۀ پژوهشی",
+      "title_fa": "تحلیل کنش گفتارهای عاطفی در داستان «حماسه» براساس نظریه‌ٔ سرل",
+      "summary_en": "Dr. Maryam Zarif examines Narges Darweshi’s story “Hamasa” using Searle’s Speech Act Theory. Zarif demonstrates that the characters’ speech conveys meaning and articulates emotions, including fear, anxiety, anger, despair, and protest.\n\nIn Zarif’s analysis, Hamasa’s suffering is not only personal; it represents the wider pain of girls deprived of education and freedom. The story’s language becomes a tool for expressing pain, resistance, and social protest.",
+      "link_url": "https://parsibaan.com/wp-content/uploads/2026/03/فصل%E2%80%8Cنامۀ-پارسی%E2%80%8Cبان،-شمارۀ-هجدهم،-زمستان-1404.pdf",
+      "date": "2026-06-19",
+      "type_en": "Research Paper",
+      "title_en": "Analysis of emotional speech acts in the story of “Hamasa” based on Searle’s Theory",
+      "summary_fa": "دکتر مریم ظریف در این مقاله، داستان «حماسه» نوشتۀ نرگس درویشی را بر اساس نظریۀ کنش‌گفتاری سرل بررسی می‌کند. او نشان می‌دهد که گفتار شخصیت‌ها فقط برای انتقال معنا نیست، بلکه احساساتی مانند ترس، اضطراب، خشم، ناامیدی و اعتراض را نیز آشکار می‌سازد.\nدر این تحلیل، رنج حماسه تنها یک تجربۀ فردی نیست؛ بلکه نمادی از درد گسترده‌تر دخترانی است که از آموزش و آزادی محروم شده‌اند. زبان داستان به ابزاری برای بیان درد، مقاومت و اعتراض اجتماعی تبدیل می‌شود.",
+      "critic_name": "Dr. Maryam Zarif"
+    }
+  ]
 }
